@@ -46,4 +46,29 @@ Vector::~Vector() {
     delete[] data;
 }
 
+
+Vector& Vector::operator=(const Vector & rhs) {
+    std::cout << "operator=\n";
+    if (this != &rhs) {
+        this->capacity = rhs.capacity;
+        this->count = rhs.count;
+
+        delete[] this->data;
+
+        this->data = new int[this->capacity];
+        for (size_t i = 0; i < this->count; i++) {
+            this->data[i] = rhs.data[i];
+        }
+    }
+
+    return * this;
+}
+
+
+int Vector::operator[](int index) {
+    if (index >= count) {
+        return 0;
+    }
+    return this->data[index];
+}
 int Vector::constructorCalls = 0;

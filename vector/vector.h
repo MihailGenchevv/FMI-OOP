@@ -20,6 +20,10 @@ public:
     Vector(const Vector & rhs);
     // Destructor
     ~Vector();
+    // equals operator
+    Vector& operator=(const Vector& rhs);
+
+    int operator[](int index);
 
     static Vector createVector(){
         return Vector();
