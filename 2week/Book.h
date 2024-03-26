@@ -16,7 +16,7 @@ public:
 
     void init();
     void print();
-    void print(const Book& b)
+    void print(const Book& b);
 
 };
 
