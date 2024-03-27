@@ -24,6 +24,14 @@ void Car::setModel(char newModel[]) {
     strncpy(model, newModel, 250);
 }
 
+char* Car::getNumber() {
+    return number;
+}
+
+void Car::setNumber(char newNumber[]) {
+    strncpy(number, newNumber, 250);
+}
+
 void Car::print() {
     cout << model << " " << number << " " << color << endl;
 }

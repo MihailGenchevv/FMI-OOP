@@ -22,6 +22,9 @@ public:
     void setModel(char newModel[]);
     char* getModel();
 
+    void setNumber(char newNumber[]);
+    char* getNumber();
+
 };
 
 
