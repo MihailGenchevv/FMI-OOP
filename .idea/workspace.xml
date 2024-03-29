@@ -19,9 +19,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9697a19d-7b52-4f1d-93c7-7a45eca30f8f" name="Changes" comment="Added vector implementation with push back method">
-      <change afterPath="$PROJECT_DIR$/vector/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vector/vector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/vector/vector.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vector/vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/vector/vector.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week7/csv/csv.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week7/csv/scores.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week7/io-operators/intvector.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week8-Practice/Logger.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week8-Practice/Logger.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week8-Practice/inheritance.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week8-Practice/loggertest.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week8-Practice/task2/Food.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week8-Practice/task2/Food.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week8-Practice/task2/Menu.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week8-Practice/task2/Menu.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week8-Practice/task2/Pizza.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week8-Practice/task2/Pizza.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week8-Practice/task2/Salad.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week8-Practice/task2/Salad.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week8-Practice/task3/Animal.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week8-Practice/task3/Animal.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week8-Practice/task3/Dog.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week8-Practice/task3/Dog.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week8/simple_inheritance/Lecturer.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week8/simple_inheritance/Student.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week8/simple_inheritance/User.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week8/simple_inheritance/inheritence.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +81,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "C/C++ File.intvector.cpp.executor": "Run",
     "C/C++ File.main.cpp.executor": "Run",
     "CMake Application.FMI_OOP.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -83,20 +104,38 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/week8/simple_inheritance" />
+      <recent name="$PROJECT_DIR$/week7/io-operators" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="Unnamed" type="CMakeRunConfiguration" factoryName="Application" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" WORKING_DIR="file://$PROJECT_DIR$/week3" PASS_PARENT_ENVS_2="true" EXPLICIT_BUILD_TARGET_NAME="all">
+  <component name="RunManager" selected="C/C++ File.intvector.cpp">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="intvector.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FMI-OOP" TARGET_NAME="intvector.cpp" CONFIG_NAME="intvector.cpp">
+      <option name="sourceFile" value="week7/io-operators/intvector.cpp" />
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="main.cpp" type="CppFileRunConfiguration" factoryName="CppFileRunConfiguration" nameIsGenerated="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FMI-OOP" TARGET_NAME="main.cpp" CONFIG_NAME="main.cpp">
+      <option name="sourceFile" value="CarClass/main.cpp" />
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.runfile.CppFileBuildBeforeRunTaskProvider$BasicBuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="C/C++ File.main.cpp" />
+      <item itemvalue="C/C++ File.intvector.cpp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="C/C++ File.intvector.cpp" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -108,6 +147,7 @@
       <updated>1711406543378</updated>
       <workItem from="1711406544462" duration="19257000" />
       <workItem from="1711480119137" duration="3510000" />
+      <workItem from="1711490409019" duration="33738000" />
     </task>
     <task id="LOCAL-00001" summary="2 week tasks">
       <option name="closed" value="true" />
